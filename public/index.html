@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1CCI71kiy-ExKz1m0zMUVQf5FprMV-dc&libraries=places"></script>
+    <script defer src="script.js"></script>
+    <title>Weather App</title>
+</head>                                                                                                                 
+<body>
+    <div class="container">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="header">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <div class="icon-container">
+                <img src="icons/01d.png" alt="UNKNOWN" id="data-icon" width="100" height="100" crossorigin="anonymous"></img>
+                <!-- <canvas id="icon" width="100" height="100"></canvas> -->
+            </div>
+        </div>
+        <div class="content">
+            <div class="general-information">
+                <div class="status" data-status>Enter A Location </div>
+                <div class="location" data-location>To Find The Weather </div>
+            </div>
+            <div class="detail-section">
+                <div class="detail">
+                    <div class="title">Wind</div>
+                    <div class="value" data-wind>TBD</div>
+                </div>
+                <div class="detail bordered">
+                    <div class="title">Temperature</div>
+                    <div class="value" data-temperature>TBD</div>
+                </div>
+                <div class="detail">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <div class="title">Sunrise</div>
+                    <div class="value" data-sunrise>TBD</div>
+                </div>
+            </div>
+            <div class="city-search-container">
+                <input type="text" class="city-search" data-city-search 
+                placeholder="Enter Location">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
